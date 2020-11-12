@@ -142,8 +142,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             } else {
                 print("Error code 1: could not find reference images.")
             }
-            
-            
         }
         return node
     }
