@@ -101,8 +101,8 @@
 			children = (
 				5A153C85255B3EC2009B8F77 /* AppDelegate.swift */,
 				5A153C87255B3EC2009B8F77 /* art.scnassets */,
-				5A153C89255B3EC2009B8F77 /* ViewController.swift */,
-				5A153C8B255B3EC2009B8F77 /* Main.storyboard */,
+				5A7EE2BB255DBA0D0074E9D9 /* Controller */,
+				5A7EE2BF255DBA160074E9D9 /* View */,
 				5A153C8E255B3EC4009B8F77 /* Assets.xcassets */,
 				5A153C90255B3EC4009B8F77 /* LaunchScreen.storyboard */,
 				5A153C93255B3EC4009B8F77 /* Info.plist */,
@@ -126,6 +126,22 @@
 				5A153CA9255B3EC4009B8F77 /* Info.plist */,
 			);
 			path = "Poké3DUITests";
+			sourceTree = "<group>";
+		};
+		5A7EE2BB255DBA0D0074E9D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A153C89255B3EC2009B8F77 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A7EE2BF255DBA160074E9D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A153C8B255B3EC2009B8F77 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
