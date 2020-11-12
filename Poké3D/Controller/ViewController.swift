@@ -39,13 +39,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         /*Init imageToTrack as an AR reference image in the Pokémon Cards folder (NOTE: bundle is set to bundle.main, which tells the method to look in the current project directory):
         */
-        if  let imageToTrack = ARReferenceImage.referenceImages(inGroupNamed: "Pokémon Cards", bundle: Bundle.main) {
+        if  let imagesToTrack = ARReferenceImage.referenceImages(inGroupNamed: "Pokémon Cards", bundle: Bundle.main) {
             /*Set the configuration's detectionImages as the unwrapped imageToTrack (NOTE: this allows the app to track images as well as detect planes):
             */
-            configuration.detectionImages = imageToTrack
+            configuration.detectionImages = imagesToTrack
             
             //Sets the max amount of images that can be tracked:
-            configuration.maximumNumberOfTrackedImages = 1
+            configuration.maximumNumberOfTrackedImages = 2
             
             print("Images successfully added to application.")
         }
@@ -145,7 +145,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             
         }
-        
         return node
     }
 }
